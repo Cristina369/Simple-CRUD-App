@@ -27,7 +27,7 @@ function ViewUser() {
         <div>
           <strong>Phone: {data.phone}</strong>
         </div>
-        <Link to={`/update/${id}`}>Edit</Link>
+        <Link to={`/update-user/${id}`}>Edit</Link>
         <Link to="/">Back</Link>
       </div>
     </div>

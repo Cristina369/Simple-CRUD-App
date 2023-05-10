@@ -23,28 +23,6 @@
       "email": "elena001@gmail.com",
       "phone": "0783645211",
       "website": "elena001.com"
-    },
-    {
-      "id": 4,
-      "name": "Alex",
-      "username": "Alex01.0",
-      "email": "alex01@gmail.com",
-      "phone": "0783645211",
-      "website": "AlexStoian.com"
-    },
-    {
-      "id": 5,
-      "name": "Andrei",
-      "username": "AndreiC",
-      "email": "andreiC@gmail.com",
-      "phone": "0783645211",
-      "website": "andreic.com"
-    },
-    {
-      "name": "Alina",
-      "email": "alina@gmail.com",
-      "phone": "0738534266",
-      "id": 6
     }
   ]
 }
