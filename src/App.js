@@ -1,5 +1,4 @@
 import React from "react";
-import { Fragment } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
 import CreateUser from "./components/User/CreateUser";
