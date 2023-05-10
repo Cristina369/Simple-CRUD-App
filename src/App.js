@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Fragment } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./components/Home/Home";
+import CreateUser from "./components/User/CreateUser";
+import UpdateUser from "./components/User/UpdateUser";
+import ViewUser from "./components/User/ViewUser";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      {/* <Header /> */}
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/new-user" element={<CreateUser />} />
+        <Route exact path="/update-user/:id" element={<UpdateUser />} />
+        <Route exact path="/user/:id" element={<ViewUser />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

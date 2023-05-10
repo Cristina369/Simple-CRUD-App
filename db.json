@@ -1,0 +1,41 @@
+[{
+    "id": 1,
+    "name":"Anna",
+    "username": "Anna23",
+    "email":"anna@gmail.com",
+    "phone":"0783645211",
+    "website":"anatasia.com"
+},
+{
+    "id": 2,
+    "name":"Stefan",
+    "username": "Steafnescu",
+    "email":"stefan@gmail.com",
+    "phone":"0783645211",
+    "website":"stefan.com"
+},
+{
+    "id": 3,
+    "name":"Elena",
+    "username": "Elenaa001",
+    "email":"elena001@gmail.com",
+    "phone":"0783645211",
+    "website":"elena001.com"
+},
+{
+    "id": 4,
+    "name":"Alex",
+    "username": "Alex01.0",
+    "email":"alex01@gmail.com",
+    "phone":"0783645211",
+    "website":"AlexStoian.com"
+},
+{
+    "id": 5,
+    "name":"Andrei",
+    "username": "AndreiC",
+    "email":"andreiC@gmail.com",
+    "phone":"0783645211",
+    "website":"andreic.com"
+}
+]
